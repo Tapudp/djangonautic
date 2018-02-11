@@ -189,4 +189,8 @@
 		b. styled the error messages and seen them pop up
 			liked: Traversy media using other live templates is much better
 			not: still need to scroll down for the whole page to see 
-		
+	32- Adding JS on front for live
+		a. created ./assets/slugify.js 
+		b. add it to the article_create.html
+		c. js is hitting some errors now and not working
+		d. used a particular set of RegEx so that our slug and URL set with dashes.
