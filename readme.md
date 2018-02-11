@@ -177,4 +177,10 @@
 			ii. and add in the url as articles_views.articles_list, name="home"
 			iii. so now when clicking on the logo let's not go to /articles/ and instead head over to home.
 				1) /templates/base_layout.html, {% url 'home' %}
+	30- Styling the app
+		a. as said manipulating the styles.css
+		b. also it needs to show the author on the main page too
+			./articles/templates/articles/article_list.html
+				add author with {{ article.author.username }}
+		c. also added the cool css to show author "I really liked that design"
 		

@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="{% static 'styles.css' %}">
 </head>
 <body>
-    <div class="wrapper">
+    <header>
         <h1><a href="{% url 'home' %}"><img src="{% static 'logo.jpg' %}" alt="Article logo" width="200"></a></h1>
+
         <nav>
             <ul>
                 {% if user.is_authenticated %}
@@ -26,6 +27,8 @@
                 {% endif %}
             </ul>
         </nav>
+    </header>
+    <div class="wrapper">
         {% block content %}
         {% endblock %}
     </div>
