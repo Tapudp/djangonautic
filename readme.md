@@ -183,4 +183,10 @@
 			./articles/templates/articles/article_list.html
 				add author with {{ article.author.username }}
 		c. also added the cool css to show author "I really liked that design"
+
+	31- Editing CSS
+		a. edited it for "Login" & "SignUp" site-form is the class
+		b. styled the error messages and seen them pop up
+			liked: Traversy media using other live templates is much better
+			not: still need to scroll down for the whole page to see 
 		
