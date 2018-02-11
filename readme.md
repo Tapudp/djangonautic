@@ -172,4 +172,9 @@
 			ii. Else show {% url 'account:login' %} & {% url 'account:signup' %}
 			iii. Also add the create new article while logged in
 	29- Redirecting the Homepage
+		a. we want to show the articles_list page whenever we just hit the server 
+			i. urls.py we would add from articles import views as article_views
+			ii. and add in the url as articles_views.articles_list, name="home"
+			iii. so now when clicking on the logo let's not go to /articles/ and instead head over to home.
+				1) /templates/base_layout.html, {% url 'home' %}
 		
