@@ -9,5 +9,5 @@ const slugify = (val) => {
 };
 
 titleInput.addEventListener('keyup', (e) => {
-    slugInput.setAttribute('value'.slugify(titleInput.value))
+    slugInput.setAttribute('value', slugify(titleInput.value));
 });
