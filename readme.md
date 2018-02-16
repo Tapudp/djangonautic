@@ -194,3 +194,6 @@
 		b. add it to the article_create.html
 		c. js is hitting some errors now and not working
 		d. used a particular set of RegEx so that our slug and URL set with dashes.
+		
+	Deployment on pythonanywhere.com following this tutorials https://www.youtube.com/watch?v=Y4c4ickks2A also do check out the wsgi file application, and try to adjust the working directory to the djangonautic itself.
+		another main thing to add the static files with in the assets folder also changed thet settings.py for it.
