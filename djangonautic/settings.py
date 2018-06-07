@@ -25,7 +25,7 @@ SECRET_KEY = 'g*m)_fy5!11c!r7wfb-_jf=q+$hyh63#z2q^0odffd8ehlj!h)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['blogbuster.pythonanywhere.com']
 
 
 # Application definition
@@ -120,10 +120,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = '/home/blogbuster/djangonautic/assets'
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'assets'),
 )
-# set to create and upload the media for the blogs that we want to add 
+# set to create and upload the media for the blogs that we want to add
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
